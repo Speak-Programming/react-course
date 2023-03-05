@@ -1,7 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { isPalindrom } from './functions/functions.ts';
+import { useEffect } from 'react';
+
+
 function App() {
+
+  useEffect(()=>{
+        console.log(isPalindrom('aaa'));
+  },[])
+
   return (
     <div className="App">
       <header className="App-header">
