@@ -1,6 +1,6 @@
 
 
-export const isPalindrom = (word) => {
+export const isPalindrom = (word :string) :boolean => {
     const lowerCaseWord =  word.toLowerCase();
     const reverseWord = lowerCaseWord.split('').reverse().join('');
 
